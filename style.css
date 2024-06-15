@@ -1,0 +1,96 @@
+body{
+    font-family: "Playwrite NZ", cursive;
+    background: lightblue;
+    margin: 20px auto;
+    max-width: 60%;
+}
+
+h1, h2{
+    color: darkblue;
+}
+
+button{
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5 ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Playwrite NZ", cursive;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.editForm{
+    display: none;
+    margin-top: 10px;
+}
+
+.postItem{
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+#postTitle, #postBody{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.newPost{
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.label{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.title{
+    color: darkblue
+}
+
+.comment{
+    color: gray;
+}
